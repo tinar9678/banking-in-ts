@@ -72,7 +72,7 @@ class Bank {
                             resolve(true);
                     }).catch(
                         () => 
-                       { console.log("tranaction invalid.");
+                       { console.log("transaction invalid.");
                         reject(false);
                     })
         });
